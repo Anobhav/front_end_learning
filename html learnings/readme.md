@@ -1,1 +1,1 @@
-A quick revision of html and more 
+A quick revision of html

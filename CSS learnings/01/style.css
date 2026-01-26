@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#heading{
+    color: rgb(0, 138, 133);
+}
+
+.stylingways{
+    
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+footer{
+    background-color: #bf2273;
+}
+
+.text_align{
+    text-align: center;
+    text-decoration: none;
+    font-weight: 900;
+    color: hsl(329, 100%, 92%);
+    font-family: arial;
+}
+
+#p1{
+    font-size: 50px;
+    text-transform: uppercase;
+}
+#p2{
+    font-size: 50%;
+    text-transform: lowercase;
+}

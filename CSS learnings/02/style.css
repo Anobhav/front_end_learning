@@ -1,0 +1,24 @@
+.learning1{
+    height: 100px;
+    width: 200px;
+    overflow: scroll;
+    margin: 50px;
+    background-color: rgb(255, 211, 153);
+    border: 2px solid black;
+    border-radius: 11px;
+    display: flex;
+    justify-content: center; /* aligns horizontally */
+    align-items: center; /* vertically center */
+    text-align: center; /* works for text in horizontal */
+}
+
+.learning2{
+    border-radius: 50%;
+    margin: 10px;
+    border: 5px solid black ;
+    height: 50px;
+    width: 50px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
