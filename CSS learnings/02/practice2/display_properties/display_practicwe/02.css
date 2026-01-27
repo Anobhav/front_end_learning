@@ -1,0 +1,43 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    display: flex;
+    background-color: #000000;
+    color: aliceblue;
+    justify-content: space-around;
+}
+.header_ele{
+    margin: 10px;
+}
+#logo{
+    color: orange;
+    margin-left:0px;
+}
+.main{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    margin: 10px;
+}
+#box1{
+    background-color: rgba(100, 100, 100, 0.5);
+}
+
+#box2{
+    background-color: rgba(187, 35, 35, 0.5);
+}
+#box3{
+    background-color: rgba(29, 64, 216, 0.5);
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+}
+
+button{
+    background-color: orange;
+}

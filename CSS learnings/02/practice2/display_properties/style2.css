@@ -1,0 +1,12 @@
+div{
+    width: 100px;
+    height: 100px;
+    margin:25px;
+    padding: 25px;
+    display: inline-block;
+}
+
+#box2{
+    display: none;
+    /*if we do display hidden then the space for it will be saved and cant be used by another element*/
+}
