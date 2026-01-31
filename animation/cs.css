@@ -1,0 +1,22 @@
+div{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    animation-name: coloranimate;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
+
+@keyframes coloranimate {
+    0% {
+        left: 0px;
+        background-color: aqua;}
+    50%{
+        transform: translate(50px);
+    }
+    100% {
+        left: 50px;
+        background-color: red;}
+
+}
