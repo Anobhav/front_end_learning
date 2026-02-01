@@ -1,13 +1,14 @@
-*{
-    padding:0px;
-    margin:0px;
+* {
+    box-sizing: border-box;
 }
+
+
 header{
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: antiquewhite;
+    background-color: rgb(223, 148, 50);
 }
 h1{
     padding:5px;
@@ -17,4 +18,7 @@ h1{
 main{
     margin: 5px;
     padding: 5px;
+}
+button{
+    margin: 10px;
 }
