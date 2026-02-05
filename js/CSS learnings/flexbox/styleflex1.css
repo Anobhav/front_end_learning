@@ -1,0 +1,40 @@
+body{
+    text-align: center;
+}
+div{
+    height:100px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+#container{
+    width: 800px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /*flex-wrap: wrap;/*
+    /*does not control wrap both work for cross axes*/
+    /* align-content: center; controls wrap */
+}
+
+#box1{
+    background: #d4a5a5;
+    /* align-self: flex-start;  highest priority */
+}
+#box2{
+    background: #e46666;
+    flex-shrink: 2;
+}
+#box3{
+    background: #55b485;
+    flex-grow: 2;
+}
+#box4{
+    background: #a94fb1;
+}
+#box5{
+    background: #0225ec;
+}

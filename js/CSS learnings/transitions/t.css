@@ -1,0 +1,23 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+}
+
+div:hover{
+    background-color: blue;
+    transform: rotate(45deg);
+    translate: 20px 50px;
+}
+
+div:active{
+    background-color: palevioletred;
+    transition-duration: 1s;
+    transition-timing-function: steps(3);
+    transition-delay: 1ms;
+    transform: scale(-5);
+}
+
+div:focus{
+    background-color: black;
+}
